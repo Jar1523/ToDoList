@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|c:\\users\\pawar\\repo\\todolist\\todolist\\todolist\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|c:\\users\\pawar\\repo\\todolist\\todolist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|c:\\users\\pawar\\repo\\todolist\\todolist\\todolist\\listcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\listcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|c:\\users\\pawar\\repo\\todolist\\todolist\\todolist\\todolist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\todolist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|c:\\users\\pawar\\repo\\todolist\\todolist\\todolist\\entities\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E55EB-A3EC-4AB7-B1FB-0AC16D85C8FA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\entities\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToDoList",
+              "DocumentMoniker": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+              "RelativeDocumentMoniker": "ToDoList\\ToDoList.csproj",
+              "ToolTip": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+              "RelativeToolTip": "ToDoList\\ToDoList.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-24T07:45:06.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListContext.cs",
+              "DocumentMoniker": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\ListContext.cs",
+              "RelativeDocumentMoniker": "ToDoList\\ListContext.cs",
+              "ToolTip": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\ListContext.cs",
+              "RelativeToolTip": "ToDoList\\ListContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:45:20.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskList.cs",
+              "DocumentMoniker": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\Entities\\TaskList.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Entities\\TaskList.cs",
+              "ToolTip": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\Entities\\TaskList.cs",
+              "RelativeToolTip": "ToDoList\\Entities\\TaskList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:42:41.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\Entities\\User.cs",
+              "RelativeToolTip": "ToDoList\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:42:31.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "ToDoList\\Program.cs",
               "ToolTip": "C:\\Users\\pawar\\Repo\\ToDoList\\ToDoList\\ToDoList\\Program.cs",
               "RelativeToolTip": "ToDoList\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T07:38:00.937Z",
               "EditorCaption": ""
