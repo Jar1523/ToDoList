@@ -8,6 +8,6 @@ namespace ToDoList.Entities
         public string UserName { get; set; }
 
 
-        public ICollection<TaskList> TaskLists { get; set; }
+        public virtual ICollection<TaskList> TaskLists { get; set; }
     }
 }
