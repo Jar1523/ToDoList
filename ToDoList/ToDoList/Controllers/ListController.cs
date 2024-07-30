@@ -35,33 +35,6 @@ namespace ToDoList.Controllers
 
             return Ok(queryUserById);
         }
-
-        public class userReq
-        {
-            public string UserName { get; set; }
-        }
-        [HttpPost("CreateUser")]
-        public IActionResult Create(userReq userReq)
-        {
-            //todo
-            //get all
-            //check duplicate
-            //if dup send error
-
-
-
-
-            var newUser = new User()
-            {
-                UserName = userReq.UserName,
-            };
-
-            _context.Add(newUser);
-            _context.SaveChanges();
-
-            return Ok(newUser);
-        }
-
         public class taskReq
         {
             public int UserId { get; set; }
@@ -143,10 +116,22 @@ namespace ToDoList.Controllers
             }
             var GetAllTaskByUserId = _context.TaskLists.Where(task => task.UserId == UserId).ToList();
 
-          
-            return Ok(GetAllTaskByUserId);
+            var models = GetAllTaskByUserId.Select(task => new resTasks()
+                        {
+                            TaskId = task.Id,
+                            TaskName = task.TaskName,
+                            Description = task.Description,
+                        }).ToList();
+
+            return Ok(models);
         }
 
+        public class resTasks
+        {
+            public int TaskId { get; set; }
+            public string TaskName { get; set; }
+            public string Description { get; set; }
+        }
 
     }
 }
